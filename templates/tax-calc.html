@@ -1,0 +1,24 @@
+<!doctype html>
+<title>Tom's Tax Calc</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+
+    <h1>Tom's Tax Calc</h1>
+
+    <form action="home" method="post">
+        <br>
+        <label for="amount">Enter Gross Income</label>
+        <input type="number" name="amount" value="" required>
+        <br>
+        <label for="hecs">HECS?</label>
+        <input type="checkbox" name="hecs" checked=True>
+        <br>
+        <br>
+        <input type="submit" value="Calculate Tax">
+    </form>
+
+    <br>
+
+    {% for message in get_flashed_messages() %}
+    <li>{{ message }}</li>
+    {% endfor %}
