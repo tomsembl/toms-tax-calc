@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
 
-body            { font-family: 'Poppins'; background: #eee; color: #393939; text-align: center}
-h1              { color: #393939; font-size: 2.5em; 
-                  margin: 0; border-bottom: 2px solid #eee;}
-.page           { margin: 2em auto; width: 25em; border: 5px solid #ccc;
-                  padding: 0.8em; background: white; text-align: center}
-
+body            { font-family: 'Poppins'; background: #404040; color: #393939; text-align: center; }
+h1              { font-family: 'Montserrat'; color: #202020; font-size: 2.5em; 
+                  margin: 0; border-bottom: 2px solid #eee; padding: 0.3em;}
+.page           { margin: 2em auto; width: 25em; border: 0;
+                  padding: 0.8em; background: white; text-align: center; }
 .form-button    { font-family: 'Poppins'; font-size: 1.4em; padding: 0.6em 1.3em; border-radius: .5em; 
-                  font-weight:  bold; border-width: 0; background-color:  rgb(68, 126, 235);
-                  color: white;}
-.form-number    { font-size: 1.4em; font-family: 'Poppins';}
-table           { text-align: left;}
+                  font-weight:  bold; border-width: 0; background-color:  rgb(174, 0, 255)/*rgb(68, 126, 235)*/;
+                  color: white;  width: 50%}
+.form-number    { font-size: 1.7em; font-family: 'Poppins'; border-radius: .5em; width: 50%; text-align: center;}
+.form-checkbox  { accent-color: rgb(174, 0, 255); }
+table           { text-align: left; margin:auto; padding-top: 1em}
 td              { padding-left: 1em; }
 .percent        { font-size: 0.7em;}
 /*
